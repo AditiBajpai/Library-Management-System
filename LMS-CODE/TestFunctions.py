@@ -89,7 +89,7 @@ m1.viewBooks(catalog)
 #member can search by name of the book
 m1.searchByName("Ikigai", catalog)
 
-#member can search by author name 
+#member can search by author name
 m4.searchByAuthor("Phil Knight", catalog)
 
 ######Book#######
@@ -100,75 +100,3 @@ b1.addBookItem('123hp','H1B1')
 b1.addBookItem('124hp','H1B3')
 
 b1.printBook()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#b = catalog.addBook('Shoe Dog','Phil Knight', '2015',312)
-#catalog.addBookItem(b, '123hg','H1B2')
-#catalog.addBookItem(b, '123hg','H1B4')
-#catalog.addBookItem(b, '123hg','H1B5')
-
-#b = catalog.addBook('Moonwalking with Einstien','J Foer', '2017',318)
-#catalog.addBookItem(b, '463hg','K1B2')
-
-#catalog.displayAllBooks()
-
-#m1 = Member("Vish","Bangalore",23,'asljlkj22','std1233')
-
-#librarian = Librarian("Awantik","Bangalore",34,'asljlkj22','zeke101')
-#print (m1)
-#print (librarian)
-
-#b = catalog.searchByName('Shoe Dog')
-#print (b)
-
-
-#catalog.removeBookItem('Shoe Dog','124hg')
-#catalog.displayAllBooks()
-#m1.issueBook
-#b = catalog.searchByAuthor('Phil')
-#print(b)
-
-#b1 = Member("Vish","Bangalore",23,'asljlkj22','std1233')
-#b1.issueBook('Shoe Dog',catalog)
-#b1.issueBook('Moonwalking with Einstien',catalog)
-
-#b1.returnBook('Shoe Dog',librarian,catalog)
-
-#librarian.addBook("Rev2020","Chetan Bhagat", 18-10-2017, 307,catalog)
-#librarian.removeBook("Rev2020",catalog)
-#librarian.removeBookItemFromCatalog('Shoe Dog', '123hg', catalog)
-
-#b1.viewBooks(catalog)
-#b1.searchByAuthor('Phil Knight',catalog)
-#librarian.viewMember()
-#librarian.addMember("Ad","Delhi",22,'sdwekh','std22')
-#librarian.viewMember()
